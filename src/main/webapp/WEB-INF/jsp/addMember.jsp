@@ -7,7 +7,7 @@
 </head>
 <body>
 	<h2>addMember Form</h2>
-	<form action="<%=request.getContextPath()%>/AddMember" method="post">
+	<form action="<%=request.getContextPath()%>/addMember" method="post">
 		<table border="1">
 			<tr>
 				<td>아이디</td>
