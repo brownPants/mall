@@ -11,3 +11,5 @@
 ⓒLogin.doGet-> ⓥlogin.jsp
 5. 로그인 액션
 ⓒLogin.doGet-> ⓜMemberDao.login() -> success:ⓒindex / fail:ⓒlogin
+6. 회원정보보기
+7. 회원정보수정

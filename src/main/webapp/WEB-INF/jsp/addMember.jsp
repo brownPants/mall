@@ -17,6 +17,16 @@
 				<td>비밀번호</td>
 				<td><input type="text" name="pw"></td>
 			</tr>
+			<tr>
+				<td>권한</td>
+				<td>
+					<select name="level">
+		                <option value="1">== 선택하세요 ==</option>
+		                <option value="1">고객</option>
+		                <option value="0">관리자</option>
+            		</select>
+            	</td>
+			</tr>
 		</table>
 		<div>
 			<a href="<%=request.getContextPath()%>/">
